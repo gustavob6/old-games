@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  .container-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    width: 60%;
+    border-radius: 5px;
+    margin: 50px;
+  
+  }
+  .text-title{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  
+  .btns {
+    border: 1px solid #01090e;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .btns:hover {
+    background-color: rgb(223, 237, 241);
+    border: 2px solid #01090e;
+    color: #34AFF5;
+    transform: scale(1.1);
+  }
+  
+  .text-2{
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    justify-content: center;
+  }
+  .text-3{
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    justify-content: center;
+  }
+  
+  .board_game {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+  }
+  .board-secondary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .board-primary{
+    padding: 10px;
+  }
+  
+  
+  .board-player{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .board-result{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  @media screen and (max-width:600px) {
+    .text-title{
+      font-size: 30px;
+    }
+    .board-player{
+      font-size: 15px;
+    }
+    .board-result{
+      font-size: 15px;
+    }
+    .text-3{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .text-title{
+      font-size: 20px;
+    }
+    .board-player{
+      font-size: 13px;
+    }
+    .board-result{
+      font-size: 13px;
+    }
+    .text-3{
+      font-size: 13px;
+    }
+    .board-secondary{
+      flex-direction: column;
+    }
+    svg{
+      height: 1.8em;
+    }
+    .btns {
+      padding: 4px;
+      margin: 9px;
+    }
+  }
+  
+  @media screen and (max-width:280px) {
+    svg{
+      height: 1.7em;
+    }
+    .btns {
+      padding: 4px;
+      margin: 8px;
+    }
+    
+  }
+  
+  @media screen and (max-width:250px) {
+    .text-title{
+      font-size: 15px;
+    }
+    svg{
+      height: 1.5em;
+    }
+    .btns{
+      padding: 3px;
+      margin: 6px;
+    }
+  }
+  
